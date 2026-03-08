@@ -1,0 +1,77 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Data files (large / local)
+# =========================
+data/vector_db/
+data/processed_chunks/
+data/raw_documents/
+
+# If you want to keep folder structure but ignore files
+!data/raw_documents/.gitkeep
+!data/processed_chunks/.gitkeep
+!data/vector_db/.gitkeep
+
+# =========================
+# Model artifacts
+# =========================
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / dist
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+.DS_Store
+
+AI/data/raw_documents/.gitkeep
+AI/data/processed_chunks/.gitkeep
+AI/data/vector_db/.gitkeep
